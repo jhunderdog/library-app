@@ -6,7 +6,7 @@ class Calculator(
      private var _number: Int
 ) {
     val number: Int
-        get() = this.number
+        get() = this._number
     fun add(operand: Int){
         this._number += operand
     }
